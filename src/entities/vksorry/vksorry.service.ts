@@ -7,7 +7,7 @@ import {
   Injectable,
   BadRequestException,
 } from '@nestjs/common'
-import { AuthAccountDto, UpdateAccountDto, ActionAccountDto } from '@vksorry/dto/VKSorry.dto'
+import { AuthAccountDto, UpdateAccountDto, ActionAccountDto } from '@vksorry/dto/vksorry.dto'
 
 
 const VKSorryURL = "http://localhost:999"
