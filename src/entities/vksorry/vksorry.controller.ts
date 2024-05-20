@@ -4,7 +4,7 @@ import { JwtGuard } from '@guard/jwt.guard';
 import { VKSorryService } from '@vksorry/vksorry.service'
 import { AuthAccountDto, UpdateAccountDto, ActionAccountDto } from '@vksorry/dto/vksorry.dto'
 
-@Controller('vksorry')
+@Controller('api/vksorry')
 export class VKSorryController {
   constructor(private readonly vksorryService: VKSorryService) {}
 

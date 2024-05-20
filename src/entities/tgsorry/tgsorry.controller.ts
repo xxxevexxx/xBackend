@@ -4,7 +4,7 @@ import { JwtGuard } from '@guard/jwt.guard';
 import { TGSorryService } from '@tgsorry/tgsorry.service'
 import { AuthAccountDto, UpdateAccountDto, ActionAccountDto } from '@tgsorry/dto/tgsorry.dto'
 
-@Controller('tgsorry')
+@Controller('api/tgsorry')
 export class TGSorryController {
   constructor(private readonly tgsorryService: TGSorryService) {}
 

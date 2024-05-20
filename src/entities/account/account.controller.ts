@@ -6,7 +6,7 @@ import { AccountService } from '@account/account.service';
 import { RefreshJwtGuard } from '@guard/refresh.guard';
 
 
-@Controller('account')
+@Controller('api/account')
 export class AccountController {
   constructor(private readonly accountService: AccountService) {}
 
